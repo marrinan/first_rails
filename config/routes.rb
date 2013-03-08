@@ -1,4 +1,7 @@
 FirstRails::Application.routes.draw do
+  resources :authors
+
+
   get "posts/index"
 
   get "posts/new"
